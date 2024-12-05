@@ -12,7 +12,7 @@ def make_scad(**kwargs):
     parts = []
 
     # save_type variables
-    if True:
+    if True: 
         filter = ""
         #filter = "test"
 
@@ -83,6 +83,8 @@ def make_scad(**kwargs):
 
 def get_base(thing, **kwargs):
 
+    string_level = 3
+
     prepare_print = kwargs.get("prepare_print", True)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
@@ -143,6 +145,7 @@ def get_base(thing, **kwargs):
     #cutout for clip
     position_clip = copy.deepcopy(pos)
     position_clip[1] += -4
+    position_clip[2] += 3
     
 
     p3 = copy.deepcopy(kwargs)
@@ -163,18 +166,20 @@ def get_base(thing, **kwargs):
     p3["type"] = "n"
     p3["shape"] = f"oobb_screw_countersunk"
     p3["radius_name"] = "m3"
-    p3["depth"] = depth/2
+    p3["depth"] = depth - string_level
     p3["nut"] = True
     p3["overhang"] = True
     p3["m"] = "#"
     pos1 = copy.deepcopy(position_clip)
-    pos1[2] += -depth/2
+    pos1[2] += -depth + string_level
     p3["pos"] = pos1
     rot1 = copy.deepcopy(rot)
     #rot1[0] += 180
     p3["rot"] = rot1
     p3["zz"] = "bottom"
     oobb_base.append_full(thing,**p3)
+
+    
 
     #add string cutout cube
     p3 = copy.deepcopy(kwargs)
@@ -190,7 +195,7 @@ def get_base(thing, **kwargs):
     pos1 = copy.deepcopy(pos)
     pos1[0] += 0
     pos1[1] += 5
-    pos1[2] += -d/2
+    pos1[2] += -d + 3
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
 
@@ -203,6 +208,7 @@ def get_base(thing, **kwargs):
         return_value_2["typetype"]  = "p"
         pos1 = copy.deepcopy(pos)
         pos1[0] += 50
+        pos1[2] += string_level + 3
         return_value_2["pos"] = pos1
         return_value_2["rot"] = [180,0,0]
         return_value_2["objects"] = components_second
@@ -214,6 +220,9 @@ def get_base(thing, **kwargs):
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "n"
         p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += string_level
+        p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
     
