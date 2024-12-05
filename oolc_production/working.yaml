@@ -1,6 +1,6 @@
 project_id: oomlout_oobb_holder_stationery_clip_binder
 project_name: Oomlout Oobb Holder Stationery Clip Binder
 project_repo: https://github.com/oomlout/oomlout_oobb_holder_stationery_clip_binder
-production_format:
-  oolc_1:
-    file_location: source_files/oolc_1.cdr
+#production_format:
+#  oolc_1:
+#    file_location: source_files/oolc_1.cdr
