@@ -6,16 +6,16 @@ full_shift:
 - 0
 - 0
 - 0
-id: oobb_oomlout_oobb_holder_stationery_clip_binder_base_03_01_12
+id: oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12
 kwargs:
   height: 1
   modes:
   - 3dpr
   overwrite: true
   thickness: 12
-  type: oomlout_oobb_holder_stationery_clip_binder_base
+  type: oomlout_oobb_holder_stationery_clip_binder_string_version
   width: 3
-name: base
+name: string_version
 project_name: C:\gh\oomlout_oobb_holder_stationery_clip_binder
 thing:
   components:
@@ -1777,7 +1777,6 @@ thing:
           h: 1.7
           height: 1
           inclusion: laser
-          m: '#'
           pos:
           - 0
           - 0
@@ -1791,7 +1790,6 @@ thing:
           h: 9
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id008
           - 0
           - 0
@@ -1805,7 +1803,6 @@ thing:
           h: 9
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id008
           r: 1.5
           shape: cylinder
@@ -1815,7 +1812,6 @@ thing:
           h: 9
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id008
           r: 1.5
           radius: 1.5
@@ -1825,7 +1821,6 @@ thing:
       - - objects:
           - height: 2.5
             inclusion: laser
-            m: '#'
             pos:
             - 0
             - 0
@@ -1837,7 +1832,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -1854,7 +1848,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -1871,7 +1864,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -1888,7 +1880,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -1905,7 +1896,6 @@ thing:
                       width: 3
           - height: 2.5
             inclusion: 3dpr
-            m: '#'
             pos:
             - 0
             - 0
@@ -1917,7 +1907,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -1934,7 +1923,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -1951,7 +1939,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -1968,7 +1955,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -1985,7 +1971,6 @@ thing:
                       width: 3
           - height: 2.5
             inclusion: 'true'
-            m: '#'
             pos:
             - 0
             - 0
@@ -1997,7 +1982,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2014,7 +1998,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2031,7 +2014,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2048,7 +2030,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2077,7 +2058,6 @@ thing:
           h: 1.9
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos:
           - 0
           - 0
@@ -2091,7 +2071,6 @@ thing:
           h: 9
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id009
           - 0
           - 0
@@ -2105,7 +2084,6 @@ thing:
           h: 9
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id009
           r: 1.8
           shape: cylinder
@@ -2115,7 +2093,6 @@ thing:
           h: 9
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id009
           r: 1.8
           radius: 1.8
@@ -2125,7 +2102,6 @@ thing:
       - - objects:
           - height: 2.5
             inclusion: laser
-            m: '#'
             pos:
             - 0
             - 0
@@ -2137,7 +2113,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2154,7 +2129,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2171,7 +2145,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2188,7 +2161,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2205,7 +2177,6 @@ thing:
                       width: 3
           - height: 2.5
             inclusion: 3dpr
-            m: '#'
             pos:
             - 0
             - 0
@@ -2217,7 +2188,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2234,7 +2204,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2251,7 +2220,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2268,7 +2236,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2285,7 +2252,6 @@ thing:
                       width: 3
           - height: 2.5
             inclusion: 'true'
-            m: '#'
             pos:
             - 0
             - 0
@@ -2297,7 +2263,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2314,7 +2279,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2331,7 +2295,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2348,7 +2311,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2377,7 +2339,6 @@ thing:
           h: 1.7
           height: 1
           inclusion: 'true'
-          m: '#'
           pos:
           - 0
           - 0
@@ -2391,7 +2352,6 @@ thing:
           h: 9
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id010
           - 0
           - 0
@@ -2405,7 +2365,6 @@ thing:
           h: 9
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id010
           r: 1.5
           shape: cylinder
@@ -2415,7 +2374,6 @@ thing:
           h: 9
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id010
           r: 1.5
           radius: 1.5
@@ -2425,7 +2383,6 @@ thing:
       - - objects:
           - height: 2.5
             inclusion: laser
-            m: '#'
             pos:
             - 0
             - 0
@@ -2437,7 +2394,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2454,7 +2410,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2471,7 +2426,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2488,7 +2442,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2505,7 +2458,6 @@ thing:
                       width: 3
           - height: 2.5
             inclusion: 3dpr
-            m: '#'
             pos:
             - 0
             - 0
@@ -2517,7 +2469,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2534,7 +2485,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2551,7 +2501,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2568,7 +2517,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2585,7 +2533,6 @@ thing:
                       width: 3
           - height: 2.5
             inclusion: 'true'
-            m: '#'
             pos:
             - 0
             - 0
@@ -2597,7 +2544,6 @@ thing:
             width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2614,7 +2560,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2631,7 +2576,6 @@ thing:
                       width: 3
           - - - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -3.25
@@ -2648,7 +2592,6 @@ thing:
                       width: 3
               - - - - height: 1
                       inclusion: 3dpr
-                      m: '#'
                       pos:
                       - -1.75
                       - -1.75
@@ -2685,7 +2628,6 @@ thing:
       typetype: n
   - - - depth: 12
         height: 1
-        m: '#'
         pos:
         - -22.5
         - 4.25
@@ -4456,7 +4398,6 @@ thing:
             h: 1.7
             height: 1
             inclusion: laser
-            m: '#'
             pos:
             - 0
             - 0
@@ -4470,7 +4411,6 @@ thing:
             h: 9
             height: 1
             inclusion: laser
-            m: '#'
             pos: &id018
             - 0
             - 0
@@ -4484,7 +4424,6 @@ thing:
             h: 9
             height: 1
             inclusion: 3dpr
-            m: '#'
             pos: *id018
             r: 1.5
             shape: cylinder
@@ -4494,7 +4433,6 @@ thing:
             h: 9
             height: 1
             inclusion: 'true'
-            m: '#'
             pos: *id018
             r: 1.5
             radius: 1.5
@@ -4504,7 +4442,6 @@ thing:
         - - objects:
             - height: 2.5
               inclusion: laser
-              m: '#'
               pos:
               - 0
               - 0
@@ -4516,7 +4453,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4533,7 +4469,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4550,7 +4485,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4567,7 +4501,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4584,7 +4517,6 @@ thing:
                         width: 3
             - height: 2.5
               inclusion: 3dpr
-              m: '#'
               pos:
               - 0
               - 0
@@ -4596,7 +4528,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4613,7 +4544,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4630,7 +4560,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4647,7 +4576,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4664,7 +4592,6 @@ thing:
                         width: 3
             - height: 2.5
               inclusion: 'true'
-              m: '#'
               pos:
               - 0
               - 0
@@ -4676,7 +4603,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4693,7 +4619,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4710,7 +4635,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4727,7 +4651,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4756,7 +4679,6 @@ thing:
             h: 1.9
             height: 1
             inclusion: 3dpr
-            m: '#'
             pos:
             - 0
             - 0
@@ -4770,7 +4692,6 @@ thing:
             h: 9
             height: 1
             inclusion: laser
-            m: '#'
             pos: &id019
             - 0
             - 0
@@ -4784,7 +4705,6 @@ thing:
             h: 9
             height: 1
             inclusion: 3dpr
-            m: '#'
             pos: *id019
             r: 1.8
             shape: cylinder
@@ -4794,7 +4714,6 @@ thing:
             h: 9
             height: 1
             inclusion: 'true'
-            m: '#'
             pos: *id019
             r: 1.8
             radius: 1.8
@@ -4804,7 +4723,6 @@ thing:
         - - objects:
             - height: 2.5
               inclusion: laser
-              m: '#'
               pos:
               - 0
               - 0
@@ -4816,7 +4734,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4833,7 +4750,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4850,7 +4766,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4867,7 +4782,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4884,7 +4798,6 @@ thing:
                         width: 3
             - height: 2.5
               inclusion: 3dpr
-              m: '#'
               pos:
               - 0
               - 0
@@ -4896,7 +4809,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4913,7 +4825,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4930,7 +4841,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4947,7 +4857,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -4964,7 +4873,6 @@ thing:
                         width: 3
             - height: 2.5
               inclusion: 'true'
-              m: '#'
               pos:
               - 0
               - 0
@@ -4976,7 +4884,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -4993,7 +4900,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5010,7 +4916,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -5027,7 +4932,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5056,7 +4960,6 @@ thing:
             h: 1.7
             height: 1
             inclusion: 'true'
-            m: '#'
             pos:
             - 0
             - 0
@@ -5070,7 +4973,6 @@ thing:
             h: 9
             height: 1
             inclusion: laser
-            m: '#'
             pos: &id020
             - 0
             - 0
@@ -5084,7 +4986,6 @@ thing:
             h: 9
             height: 1
             inclusion: 3dpr
-            m: '#'
             pos: *id020
             r: 1.5
             shape: cylinder
@@ -5094,7 +4995,6 @@ thing:
             h: 9
             height: 1
             inclusion: 'true'
-            m: '#'
             pos: *id020
             r: 1.5
             radius: 1.5
@@ -5104,7 +5004,6 @@ thing:
         - - objects:
             - height: 2.5
               inclusion: laser
-              m: '#'
               pos:
               - 0
               - 0
@@ -5116,7 +5015,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -5133,7 +5031,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5150,7 +5047,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -5167,7 +5063,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5184,7 +5079,6 @@ thing:
                         width: 3
             - height: 2.5
               inclusion: 3dpr
-              m: '#'
               pos:
               - 0
               - 0
@@ -5196,7 +5090,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -5213,7 +5106,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5230,7 +5122,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -5247,7 +5138,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5264,7 +5154,6 @@ thing:
                         width: 3
             - height: 2.5
               inclusion: 'true'
-              m: '#'
               pos:
               - 0
               - 0
@@ -5276,7 +5165,6 @@ thing:
               width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -5293,7 +5181,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5310,7 +5197,6 @@ thing:
                         width: 3
             - - - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -3.25
@@ -5327,7 +5213,6 @@ thing:
                         width: 3
                 - - - - height: 1
                         inclusion: 3dpr
-                        m: '#'
                         pos:
                         - -1.75
                         - -1.75
@@ -5364,7 +5249,6 @@ thing:
         typetype: n
     - - - depth: 12
           height: 1
-          m: '#'
           pos:
           - -22.5
           - 4.25
@@ -5496,7 +5380,6 @@ thing:
     width: 3
   - depth: 9
     height: 1
-    m: '#'
     modes:
     - 3dpr
     nut: true
@@ -5519,7 +5402,6 @@ thing:
     zz: bottom
   - depth: 12
     height: 1
-    m: '#'
     modes:
     - 3dpr
     overwrite: true
@@ -5557,13 +5439,13 @@ thing:
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_9_depth_0_-4_-6_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_true_nut_true_overhang_0_0_0_rot_bottom_zz
   - oobb_cube_shape_n_type_12_depth_0_5_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_45_1.5_1.5_size
   - oobb_slice_shape_n_type_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness
-  description: oomlout oobb holder stationery clip binder base 3x1x12
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\thigns\oobb_oomlout_oobb_holder_stationery_clip_binder_base_03_01_12
+  description: oomlout oobb holder stationery clip binder string version 3x1x12
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\things\oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12
   height: 1
   height_mm: 14
-  id: oobb_oomlout_oobb_holder_stationery_clip_binder_base_03_01_12
+  id: oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12
   thickness: 12
   thickness_mm: 12
-  type: oomlout_oobb_holder_stationery_clip_binder_base
+  type: oomlout_oobb_holder_stationery_clip_binder_string_version
   width: 3
   width_mm: 44
