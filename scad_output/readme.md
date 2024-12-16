@@ -1,0 +1,34 @@
+# Oomlout oobb holder stationery clip binder
+
+
+## parts
+
+### oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_01_06
+* link: [/oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_01_06](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_01_06)  
+![](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_01_06/3dpr_300.png)  ![](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_01_06/image_300.jpg)
+ 
+
+### oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_02_06
+* link: [/oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_02_06](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_02_06)  
+![](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_02_06/3dpr_300.png)  ![](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_02_06/image_300.jpg)
+ 
+
+### oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_03_06
+* link: [/oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_03_06](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_03_06)  
+![](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_03_06/3dpr_300.png)  ![](oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_03_06/image_300.jpg)
+ 
+
+### oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_01_06
+* link: [/oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_01_06](oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_01_06)  
+![](oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_01_06/3dpr_300.png)  ![](oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_01_06/image_300.jpg)
+ 
+
+### oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_02_06
+* link: [/oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_02_06](oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_02_06)  
+![](oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_02_06/3dpr_300.png)  ![](oobb_oomlout_oobb_holder_stationery_clip_binder_screw_wood_version_03_02_06/image_300.jpg)
+ 
+
+### oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12
+* link: [/oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12](oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12)  
+![](oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12/3dpr_300.png)  ![](oobb_oomlout_oobb_holder_stationery_clip_binder_string_version_03_01_12/image_300.jpg)
+ 
