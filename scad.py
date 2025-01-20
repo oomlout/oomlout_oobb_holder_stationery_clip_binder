@@ -58,9 +58,9 @@ def make_scad(**kwargs):
         
 
         sizes = []
-        sizes.append([3,1,6])
-        sizes.append([3,2,6])
-        sizes.append([3,3,6])
+        sizes.append([3,1,9])
+        sizes.append([3,2,9])
+        sizes.append([3,3,9])
 
 
         for size in sizes:
@@ -200,7 +200,8 @@ def get_base(thing, **kwargs):
     p3["depth"] = depth - string_level
     p3["nut"] = True
     p3["overhang"] = True
-    #p3["m"] = "#"
+    p3["clearance"] = True
+    p3["m"] = "#"
     pos1 = copy.deepcopy(position_clip)
     pos1[2] += -depth + string_level
     p3["pos"] = pos1
@@ -320,16 +321,18 @@ def get_oobb_version(thing, **kwargs):
     oobb_base.append_full(thing,**p3)
 
     #add countersunk screw
+    clearance_screw = 1.5
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "n"
     p3["shape"] = f"oobb_screw_countersunk"
     p3["radius_name"] = "m3"
-    p3["depth"] = depth
+    p3["depth"] = depth - clearance_screw
     p3["nut"] = True
     p3["overhang"] = True
+    p3["clearance"] = ["bottom"]
     #p3["m"] = "#"
     pos1 = copy.deepcopy(position_clip)
-    pos1[2] += -depth
+    pos1[2] += -depth + clearance_screw
     p3["pos"] = pos1
     rot1 = copy.deepcopy(rot)
     #rot1[0] += 180
