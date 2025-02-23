@@ -5318,7 +5318,7 @@ thing:
     - 0
     - 0
     - -6.0
-    save_type: all
+    save_type: none
     shape: oobb_plate
     thickness: 12
     type: p
@@ -5339,7 +5339,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     thickness: 12
     type: n
@@ -5360,7 +5360,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     thickness: 12
     type: n
@@ -5375,7 +5375,7 @@ thing:
     - -4
     - 2.0
     radius: 8.5
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 12
     type: n
@@ -5396,7 +5396,7 @@ thing:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     thickness: 12
     type: n
@@ -5411,7 +5411,7 @@ thing:
     - 0
     - 5
     - 1.5
-    save_type: all
+    save_type: none
     shape: oobb_cube
     size:
     - 45
@@ -5428,19 +5428,19 @@ thing:
     - 0
     - 0
     - 3
-    save_type: all
+    save_type: none
     shape: oobb_slice
     thickness: 12
     type: n
     width: 3
   components_string:
-  - oobb_plate_shape_p_type_12_depth_0_0_-6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_12_depth_15_0_6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_true_nut_true_overhang_0_0_0_rot
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_12_depth_-15_0_6.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_true_nut_true_overhang_0_0_0_rot
-  - oobb_cylinder_shape_n_type_2_depth_0_-4_2.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_8.5_radius
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_9_depth_0_-4_-6_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_true_nut_true_overhang_0_0_0_rot_bottom_zz
-  - oobb_cube_shape_n_type_12_depth_0_5_1.5_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_45_1.5_1.5_size
-  - oobb_slice_shape_n_type_0_0_3_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness
+  - oobb_plate_shape_p_type_12_depth_0_0_-6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_12_depth_15_0_6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_true_nut_true_overhang_0_0_0_rot
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_12_depth_-15_0_6.0_pos_none_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_true_nut_true_overhang_0_0_0_rot
+  - oobb_cylinder_shape_n_type_2_depth_0_-4_2.0_pos_none_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_8.5_radius
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_9_depth_0_-4_-6_pos_none_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_true_nut_true_overhang_0_0_0_rot_bottom_zz
+  - oobb_cube_shape_n_type_12_depth_0_5_1.5_pos_none_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness_45_1.5_1.5_size
+  - oobb_slice_shape_n_type_0_0_3_pos_none_save_type_true_overwrite_'3dpr'_modes_3_width_1_height_12_thickness
   description: oomlout oobb holder stationery clip binder string version 3x1x12
   description_extra: ''
   description_main: 3_width_1_height_12_mm_depth
