@@ -99,7 +99,7 @@ def make_scad(**kwargs):
             p3["thickness"] = size[2]
             p3["extra"] = "stationery_clip_binder_100_mm_width_metal"
             part["kwargs"] = p3
-            part["name"] = "oobb_version"
+            part["name"] = "lay_flat_version"
             parts.append(part)
 
 
@@ -399,7 +399,17 @@ def get_oobb_version_38_mm(thing, **kwargs):
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
-def get_oobb_version_100_mm(thing, **kwargs):
+def get_lay_flat_version(thing, **kwargs):
+    extra = kwargs.get("extra", "")
+    if "stationery_clip_binder_38_mm_width_metal" in extra:
+        return get_lay_flat_version_38_mm(thing, **kwargs)
+    elif "stationery_clip_binder_100_mm_width_metal" in extra:
+        return get_lay_flat_version_100_mm(thing, **kwargs)
+
+def get_lay_flat_version_38_mm(thing, **kwargs):
+    pass
+
+def get_lay_flat_version_100_mm(thing, **kwargs):
 
     string_level = 3
 
@@ -479,6 +489,23 @@ def get_oobb_version_100_mm(thing, **kwargs):
         pos1 = copy.deepcopy(position_clip)
         pos1[0] += 0
         pos1[1] += shift_clip_y_small
+        pos1[2] += -depth/2
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+        #spring_clearnce
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_cube"
+        w = 3 + clear
+        h = 15 + clear
+        d = depth
+        size = [w,h,d]
+        p3["size"] = size
+        p3["m"] = "#"
+        pos1 = copy.deepcopy(position_clip)
+        pos1[0] += -13
+        pos1[1] += -15
         pos1[2] += -depth/2
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)

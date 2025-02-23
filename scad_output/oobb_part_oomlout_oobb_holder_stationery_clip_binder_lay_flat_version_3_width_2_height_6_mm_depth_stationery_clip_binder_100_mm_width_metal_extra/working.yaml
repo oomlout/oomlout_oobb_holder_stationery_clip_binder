@@ -6,7 +6,7 @@ full_shift:
 - 0
 - 0
 - 0
-id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_oobb_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
+id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
 kwargs:
   extra: stationery_clip_binder_100_mm_width_metal
   height: 2
@@ -14,9 +14,9 @@ kwargs:
   - 3dpr
   overwrite: true
   thickness: 6
-  type: oomlout_oobb_holder_stationery_clip_binder_oobb_version
+  type: oomlout_oobb_holder_stationery_clip_binder_lay_flat_version
   width: 3
-name: oobb_version
+name: lay_flat_version
 project_name: C:\gh\oomlout_oobb_holder_stationery_clip_binder
 thing:
   classification: oobb
@@ -60,6 +60,20 @@ thing:
         - 24.5
         - 8.5
         - 2.5
+        type: negative
+        width: 3
+  - - - extra: stationery_clip_binder_100_mm_width_metal
+        height: 2
+        m: '#'
+        pos:
+        - -14.75
+        - -22.75
+        - -3.0
+        shape: cube
+        size:
+        - 3.5
+        - 15.5
+        - 6
         type: negative
         width: 3
   - - depth: 6
@@ -659,6 +673,25 @@ thing:
     thickness: 6
     type: negative
     width: 3
+  - extra: stationery_clip_binder_100_mm_width_metal
+    height: 2
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - -13
+    - -15
+    - -3.0
+    save_type: all
+    shape: oobb_cube
+    size:
+    - 3.5
+    - 15.5
+    - 6
+    thickness: 6
+    type: negative
+    width: 3
   - depth: 6
     extra: stationery_clip_binder_100_mm_width_metal
     height: 2
@@ -748,27 +781,28 @@ thing:
   - oobb_plate_shape_p_type_6_depth_0_0_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra
   - oobb_cube_shape_negative_type_0_-22.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_34.5_30.5_2.5_size
   - oobb_cube_shape_negative_type_0_-3.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_24.5_8.5_2.5_size
+  - oobb_cube_shape_negative_type_-13_-15_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_3.5_15.5_6_size
   - oobb_cylinder_shape_positive_positive_type_6_depth_0_-7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_7.0_radius
   - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
   - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_-15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
   - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_0_-7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
-  description: oomlout oobb holder stationery clip binder oobb version 3x2x6
+  description: oomlout oobb holder stationery clip binder lay flat version 3x2x6
   description_extra: stationery_clip_binder_100_mm_width_metal_extra
   description_main: 3_width_2_height_6_mm_depth
   extra: stationery_clip_binder_100_mm_width_metal
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_holder_stationery_clip_binder_oobb_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
   height: 2
   height_mm: 29
-  id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_oobb_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
-  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_holder_stationery_clip_binder_oobb_version/3_width_2_height_6_mm_depth/stationery_clip_binder_100_mm_width_metal_extra/part
-  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_03_02_06_ex_stationery_clip_binder_100_mm_width_metal
+  id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_holder_stationery_clip_binder_lay_flat_version/3_width_2_height_6_mm_depth/stationery_clip_binder_100_mm_width_metal_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_03_02_06_ex_stationery_clip_binder_100_mm_width_metal
   manufacturer: ''
-  name: Oobb Part Oomlout Oobb Holder Stationery Clip Binder Oobb Version 3 Width
+  name: Oobb Part Oomlout Oobb Holder Stationery Clip Binder Lay Flat Version 3 Width
     2 Height 6 mm Depth Stationery Clip Binder 100 mm Width Metal Extra
   name_short: Oomlout Oobb Holder Stationery Clip
   part_number: ''
   short_name: ''
-  size: oomlout_oobb_holder_stationery_clip_binder_oobb_version
+  size: oomlout_oobb_holder_stationery_clip_binder_lay_flat_version
   thickness: 6
   thickness_mm: 6
   type: part
