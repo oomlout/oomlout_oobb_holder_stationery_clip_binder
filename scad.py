@@ -14,13 +14,13 @@ def make_scad(**kwargs):
     # save_type variables
     if True: 
         filter = ""
-        filter = "lay_flat"
+        #filter = "lay_flat"
 
         kwargs["save_type"] = "none"
         kwargs["save_type"] = "all"
         
-        navigation = False
-        #navigation = True    
+        #navigation = False
+        navigation = True    
 
         kwargs["overwrite"] = True
         
@@ -500,11 +500,11 @@ def get_lay_flat_version_38_mm(thing, **kwargs):
         d = depth
         size = [w,h,d]
         p3["size"] = size
-        p3["m"] = "#"
+        #p3["m"] = "#"
         pos1 = copy.deepcopy(position_clip)
         pos1[0] += 0
         pos1[1] += -17
-        pos1[2] += -depth/2
+        pos1[2] += depth/2 - d
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
@@ -515,11 +515,11 @@ def get_lay_flat_version_38_mm(thing, **kwargs):
         p3["radius"] = 20/2 + clear/2
         d = depth_clip
         p3["depth"] = d
-        #p3["m"] = "#"
+        p3["m"] = "#"
         pos1 = copy.deepcopy(position_clip)
         pos1[0] += 0
         pos1[1] += shift_clip_y_small
-        pos1[2] += -depth/2
+        pos1[2] += -depth/2 + d/2
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
@@ -532,7 +532,7 @@ def get_lay_flat_version_38_mm(thing, **kwargs):
         d = depth
         size = [w,h,d]
         p3["size"] = size
-        p3["m"] = "#"
+        #p3["m"] = "#"
         pos1 = copy.deepcopy(position_clip)
         pos1[0] += -7
         pos1[1] += -15
@@ -540,12 +540,15 @@ def get_lay_flat_version_38_mm(thing, **kwargs):
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
+        depth_clip_material = 1
+
         #add press_cylinder
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "positive_positive"
         p3["shape"] = f"oobb_cylinder"
         p3["radius"] = 14/2
-        p3["depth"] = depth
+        dep = depth - depth_clip_material
+        p3["depth"] = dep
         #p3["m"] = "#"
         pos1 = copy.deepcopy(position_clip)
         pos1[1] += -7.5
@@ -711,12 +714,16 @@ def get_lay_flat_version_100_mm(thing, **kwargs):
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
+        
+        depth_clip_material = 1
+
         #add press_cylinder
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "positive_positive"
         p3["shape"] = f"oobb_cylinder"
         p3["radius"] = 14/2
-        p3["depth"] = depth
+        dep = depth - depth_clip_material
+        p3["depth"] = dep
         #p3["m"] = "#"
         pos1 = copy.deepcopy(position_clip)
         pos1[1] += -7.5

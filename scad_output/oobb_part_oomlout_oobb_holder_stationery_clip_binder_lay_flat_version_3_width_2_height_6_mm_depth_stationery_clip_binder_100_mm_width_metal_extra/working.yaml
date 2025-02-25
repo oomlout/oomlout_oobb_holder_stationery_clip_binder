@@ -76,23 +76,23 @@ thing:
         - 6
         type: negative
         width: 3
-  - - depth: 6
+  - - depth: 5
       extra: stationery_clip_binder_100_mm_width_metal
-      h: 6
+      h: 5
       height: 2
       inclusion: laser
       pos: &id001
       - 0
       - -7.5
-      - -3.0
+      - -2.5
       r: 7.0
       radius: 7.0
       shape: cylinder
       type: positive_positive
       width: 3
-    - depth: 6
+    - depth: 5
       extra: stationery_clip_binder_100_mm_width_metal
-      h: 6
+      h: 5
       height: 2
       inclusion: 3dpr
       pos: *id001
@@ -100,9 +100,9 @@ thing:
       shape: cylinder
       type: positive_positive
       width: 3
-    - depth: 6
+    - depth: 5
       extra: stationery_clip_binder_100_mm_width_metal
-      h: 6
+      h: 5
       height: 2
       inclusion: 'true'
       pos: *id001
@@ -692,7 +692,7 @@ thing:
     thickness: 6
     type: negative
     width: 3
-  - depth: 6
+  - depth: 5
     extra: stationery_clip_binder_100_mm_width_metal
     height: 2
     modes:
@@ -782,7 +782,7 @@ thing:
   - oobb_cube_shape_negative_type_0_-22.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_34.5_30.5_2.5_size
   - oobb_cube_shape_negative_type_0_-3.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_24.5_8.5_2.5_size
   - oobb_cube_shape_negative_type_-13_-15_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_5.5_15.5_6_size
-  - oobb_cylinder_shape_positive_positive_type_6_depth_0_-7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_7.0_radius
+  - oobb_cylinder_shape_positive_positive_type_5_depth_0_-7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_7.0_radius
   - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
   - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_-15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
   - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_0_-7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
