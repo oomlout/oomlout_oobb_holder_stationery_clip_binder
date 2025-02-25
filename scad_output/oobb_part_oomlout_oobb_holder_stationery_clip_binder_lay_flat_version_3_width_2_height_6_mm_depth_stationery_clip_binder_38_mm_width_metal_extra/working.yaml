@@ -6,9 +6,9 @@ full_shift:
 - 0
 - 0
 - 0
-id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
+id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_38_mm_width_metal_extra
 kwargs:
-  extra: stationery_clip_binder_100_mm_width_metal
+  extra: stationery_clip_binder_38_mm_width_metal
   height: 2
   modes:
   - 3dpr
@@ -23,7 +23,7 @@ thing:
   color: ''
   components:
   - - depth: 6
-      extra: stationery_clip_binder_100_mm_width_metal
+      extra: stationery_clip_binder_38_mm_width_metal
       height: 2
       pos:
       - 0
@@ -36,37 +36,248 @@ thing:
       - 6
       type: positive
       width: 3
-  - - - extra: stationery_clip_binder_100_mm_width_metal
+  - - - depth: 6
+        h: 6
+        inclusion: laser
+        m: ''
+        pos: &id001
+        - -15.0
+        - -7.5
+        - -3.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 3dpr
+        m: ''
+        pos: *id001
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 'true'
+        m: ''
+        pos: *id001
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 6
+        h: 6
+        inclusion: laser
+        m: ''
+        pos: &id002
+        - 15.0
+        - -7.5
+        - -3.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 3dpr
+        m: ''
+        pos: *id002
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 'true'
+        m: ''
+        pos: *id002
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 6
+        h: 6
+        inclusion: laser
+        m: ''
+        pos: &id003
+        - 0.0
+        - 7.5
+        - -3.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 3dpr
+        m: ''
+        pos: *id003
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 'true'
+        m: ''
+        pos: *id003
+        r: 3.0
+        shape: cylinder
+        type: negative
+  - - - depth: 6
+        h: 6
+        inclusion: laser
+        m: '#'
+        pos: &id004
+        - -15.0
+        - 0.0
+        - -3.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 3dpr
+        m: '#'
+        pos: *id004
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 'true'
+        m: '#'
+        pos: *id004
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 6
+        h: 6
+        inclusion: laser
+        m: '#'
+        pos: &id005
+        - 15.0
+        - 0.0
+        - -3.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 3dpr
+        m: '#'
+        pos: *id005
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 'true'
+        m: '#'
+        pos: *id005
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 6
+        h: 6
+        inclusion: laser
+        m: '#'
+        pos: &id006
+        - -7.5
+        - 7.5
+        - -3.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 3dpr
+        m: '#'
+        pos: *id006
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 'true'
+        m: '#'
+        pos: *id006
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 6
+        h: 6
+        inclusion: laser
+        m: '#'
+        pos: &id007
+        - 7.5
+        - 7.5
+        - -3.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 3dpr
+        m: '#'
+        pos: *id007
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 6
+        h: 6
+        inclusion: 'true'
+        m: '#'
+        pos: *id007
+        r: 1.5
+        shape: cylinder
+        type: negative
+  - - - extra: stationery_clip_binder_38_mm_width_metal
         height: 2
         pos:
-        - -17.25
-        - -37.75
+        - -10.25
+        - -27.75
         - -3.0
         shape: cube
         size:
-        - 34.5
-        - 30.5
-        - 2.5
+        - 20.5
+        - 20.5
+        - 2
         type: negative
         width: 3
-  - - - extra: stationery_clip_binder_100_mm_width_metal
-        height: 2
-        pos:
-        - -12.25
-        - -7.75
-        - -3.0
-        shape: cube
-        size:
-        - 24.5
-        - 8.5
-        - 2.5
-        type: negative
-        width: 3
-  - - - extra: stationery_clip_binder_100_mm_width_metal
+  - - depth: 2
+      extra: stationery_clip_binder_38_mm_width_metal
+      h: 2
+      height: 2
+      inclusion: laser
+      pos: &id008
+      - 0
+      - -7.5
+      - -4.0
+      r: 10.25
+      radius: 10.25
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 2
+      extra: stationery_clip_binder_38_mm_width_metal
+      h: 2
+      height: 2
+      inclusion: 3dpr
+      pos: *id008
+      r: 10.25
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 2
+      extra: stationery_clip_binder_38_mm_width_metal
+      h: 2
+      height: 2
+      inclusion: 'true'
+      pos: *id008
+      r: 10.25
+      radius: 10.25
+      shape: cylinder
+      type: negative
+      width: 3
+  - - - extra: stationery_clip_binder_38_mm_width_metal
         height: 2
         m: '#'
         pos:
-        - -15.75
+        - -9.75
         - -22.75
         - -3.0
         shape: cube
@@ -74,14 +285,14 @@ thing:
         - 5.5
         - 15.5
         - 6
-        type: negative
+        type: negative_negative
         width: 3
   - - depth: 6
-      extra: stationery_clip_binder_100_mm_width_metal
+      extra: stationery_clip_binder_38_mm_width_metal
       h: 6
       height: 2
       inclusion: laser
-      pos: &id001
+      pos: &id009
       - 0
       - -7.5
       - -3.0
@@ -91,21 +302,21 @@ thing:
       type: positive_positive
       width: 3
     - depth: 6
-      extra: stationery_clip_binder_100_mm_width_metal
+      extra: stationery_clip_binder_38_mm_width_metal
       h: 6
       height: 2
       inclusion: 3dpr
-      pos: *id001
+      pos: *id009
       r: 7.0
       shape: cylinder
       type: positive_positive
       width: 3
     - depth: 6
-      extra: stationery_clip_binder_100_mm_width_metal
+      extra: stationery_clip_binder_38_mm_width_metal
       h: 6
       height: 2
       inclusion: 'true'
-      pos: *id001
+      pos: *id009
       r: 7.0
       radius: 7.0
       shape: cylinder
@@ -113,7 +324,7 @@ thing:
       width: 3
   - - objects:
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 2.5
           height: 2
           inclusion: laser
@@ -128,12 +339,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id002
+          pos: &id010
           - 0
           - 0
           - -6.0
@@ -143,30 +354,30 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id002
+          pos: *id010
           r: 2.0
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id002
+          pos: *id010
           r: 2.0
           radius: 2.0
           shape: cylinder
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 3
           height: 2
           inclusion: 3dpr
@@ -181,12 +392,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id003
+          pos: &id011
           - 0
           - 0
           - -6.0
@@ -196,30 +407,30 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id003
+          pos: *id011
           r: 2.125
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id003
+          pos: *id011
           r: 2.125
           radius: 2.125
           shape: cylinder
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 2.5
           height: 2
           inclusion: 'true'
@@ -234,12 +445,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id004
+          pos: &id012
           - 0
           - 0
           - -6.0
@@ -249,23 +460,23 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id004
+          pos: *id012
           r: 2.0
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id004
+          pos: *id012
           r: 2.0
           radius: 2.0
           shape: cylinder
@@ -283,7 +494,7 @@ thing:
       typetype: negative_negative
   - - objects:
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 2.5
           height: 2
           inclusion: laser
@@ -298,12 +509,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id005
+          pos: &id013
           - 0
           - 0
           - -6.0
@@ -313,30 +524,30 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id005
+          pos: *id013
           r: 2.0
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id005
+          pos: *id013
           r: 2.0
           radius: 2.0
           shape: cylinder
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 3
           height: 2
           inclusion: 3dpr
@@ -351,12 +562,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id006
+          pos: &id014
           - 0
           - 0
           - -6.0
@@ -366,30 +577,30 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id006
+          pos: *id014
           r: 2.125
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id006
+          pos: *id014
           r: 2.125
           radius: 2.125
           shape: cylinder
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 2.5
           height: 2
           inclusion: 'true'
@@ -404,12 +615,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id007
+          pos: &id015
           - 0
           - 0
           - -6.0
@@ -419,23 +630,23 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id007
+          pos: *id015
           r: 2.0
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id007
+          pos: *id015
           r: 2.0
           radius: 2.0
           shape: cylinder
@@ -453,7 +664,7 @@ thing:
       typetype: negative_negative
   - - objects:
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 2.5
           height: 2
           inclusion: laser
@@ -468,12 +679,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id008
+          pos: &id016
           - 0
           - 0
           - -6.0
@@ -483,30 +694,30 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id008
+          pos: *id016
           r: 2.0
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id008
+          pos: *id016
           r: 2.0
           radius: 2.0
           shape: cylinder
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 3
           height: 2
           inclusion: 3dpr
@@ -521,12 +732,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id009
+          pos: &id017
           - 0
           - 0
           - -6.0
@@ -536,30 +747,30 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id009
+          pos: *id017
           r: 2.125
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id009
+          pos: *id017
           r: 2.125
           radius: 2.125
           shape: cylinder
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 2.5
           height: 2
           inclusion: 'true'
@@ -574,12 +785,12 @@ thing:
           type: positive
           width: 3
       - - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: laser
           m: '#'
-          pos: &id010
+          pos: &id018
           - 0
           - 0
           - -6.0
@@ -589,23 +800,23 @@ thing:
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 3dpr
           m: '#'
-          pos: *id010
+          pos: *id018
           r: 2.0
           shape: cylinder
           type: positive
           width: 3
         - depth: 6
-          extra: stationery_clip_binder_100_mm_width_metal
+          extra: stationery_clip_binder_38_mm_width_metal
           h: 6
           height: 2
           inclusion: 'true'
           m: '#'
-          pos: *id010
+          pos: *id018
           r: 2.0
           radius: 2.0
           shape: cylinder
@@ -623,7 +834,7 @@ thing:
       typetype: negative_negative
   components_objects:
   - depth: 6
-    extra: stationery_clip_binder_100_mm_width_metal
+    extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     modes:
     - 3dpr
@@ -637,50 +848,102 @@ thing:
     thickness: 6
     type: p
     width: 3
-  - extra: stationery_clip_binder_100_mm_width_metal
+  - both_holes: true
+    depth: 6
+    extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    holes:
+    - single
+    locations:
+    - - 1
+      - 1
+    - - 3
+      - 1
+    - - 2
+      - 2
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -3.0
+    save_type: all
+    shape: oobb_holes
+    thickness: 6
+    type: p
+    width: 3
+  - both_holes: true
+    depth: 6
+    extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    holes:
+    - single
+    locations:
+    - - 1
+      - 1.5
+    - - 3
+      - 1.5
+    - - 1.5
+      - 2
+    - - 2.5
+      - 2
+    m: '#'
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - -3.0
+    radius_name: m3
+    save_type: all
+    shape: oobb_holes
+    thickness: 6
+    type: p
+    width: 3
+  - extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     modes:
     - 3dpr
     overwrite: true
     pos:
     - 0
-    - -22.5
+    - -17.5
     - -3.0
     save_type: all
     shape: oobb_cube
     size:
-    - 34.5
-    - 30.5
-    - 2.5
+    - 20.5
+    - 20.5
+    - 2
     thickness: 6
     type: negative
     width: 3
-  - extra: stationery_clip_binder_100_mm_width_metal
+  - depth: 2
+    extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     modes:
     - 3dpr
     overwrite: true
     pos:
     - 0
-    - -3.5
+    - -7.5
     - -3.0
+    radius: 10.25
     save_type: all
-    shape: oobb_cube
-    size:
-    - 24.5
-    - 8.5
-    - 2.5
+    shape: oobb_cylinder
     thickness: 6
     type: negative
     width: 3
-  - extra: stationery_clip_binder_100_mm_width_metal
+  - extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     m: '#'
     modes:
     - 3dpr
     overwrite: true
     pos:
-    - -13
+    - -7
     - -15
     - -3.0
     save_type: all
@@ -690,10 +953,10 @@ thing:
     - 15.5
     - 6
     thickness: 6
-    type: negative
+    type: negative_negative
     width: 3
   - depth: 6
-    extra: stationery_clip_binder_100_mm_width_metal
+    extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     modes:
     - 3dpr
@@ -709,7 +972,7 @@ thing:
     type: positive_positive
     width: 3
   - depth: 6
-    extra: stationery_clip_binder_100_mm_width_metal
+    extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     m: '#'
     modes:
@@ -732,7 +995,7 @@ thing:
     width: 3
     zz: bottom
   - depth: 6
-    extra: stationery_clip_binder_100_mm_width_metal
+    extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     m: '#'
     modes:
@@ -755,7 +1018,7 @@ thing:
     width: 3
     zz: bottom
   - depth: 6
-    extra: stationery_clip_binder_100_mm_width_metal
+    extra: stationery_clip_binder_38_mm_width_metal
     height: 2
     m: '#'
     modes:
@@ -778,27 +1041,29 @@ thing:
     width: 3
     zz: bottom
   components_string:
-  - oobb_plate_shape_p_type_6_depth_0_0_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra
-  - oobb_cube_shape_negative_type_0_-22.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_34.5_30.5_2.5_size
-  - oobb_cube_shape_negative_type_0_-3.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_24.5_8.5_2.5_size
-  - oobb_cube_shape_negative_type_-13_-15_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_5.5_15.5_6_size
-  - oobb_cylinder_shape_positive_positive_type_6_depth_0_-7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_7.0_radius
-  - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
-  - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_-15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
-  - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_0_-7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_100_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
+  - oobb_plate_shape_p_type_6_depth_0_0_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra
+  - oobb_holes_shape_p_type_6_depth_0_0_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_both_holes_'single'_holes_1_1_3_1_2_2_locations
+  - oobb_holes_shape_p_type_m3_radius_name_6_depth_0_0_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_both_holes_'single'_holes_1_1.5_3_1.5_1.5_2_2.5_2_locations
+  - oobb_cube_shape_negative_type_0_-17.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_20.5_20.5_2_size
+  - oobb_cylinder_shape_negative_type_2_depth_0_-7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_10.25_radius
+  - oobb_cube_shape_negative_negative_type_-7_-15_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_5.5_15.5_6_size
+  - oobb_cylinder_shape_positive_positive_type_6_depth_0_-7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_7.0_radius
+  - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
+  - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_-15_7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
+  - oobb_screw_countersunk_shape_negative_negative_type_m3_screw_wood_radius_name_6_depth_0_-7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
   description: oomlout oobb holder stationery clip binder lay flat version 3x2x6
-  description_extra: stationery_clip_binder_100_mm_width_metal_extra
+  description_extra: stationery_clip_binder_38_mm_width_metal_extra
   description_main: 3_width_2_height_6_mm_depth
-  extra: stationery_clip_binder_100_mm_width_metal
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
+  extra: stationery_clip_binder_38_mm_width_metal
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_38_mm_width_metal_extra
   height: 2
   height_mm: 29
-  id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_100_mm_width_metal_extra
-  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_holder_stationery_clip_binder_lay_flat_version/3_width_2_height_6_mm_depth/stationery_clip_binder_100_mm_width_metal_extra/part
-  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_03_02_06_ex_stationery_clip_binder_100_mm_width_metal
+  id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_3_width_2_height_6_mm_depth_stationery_clip_binder_38_mm_width_metal_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_holder_stationery_clip_binder_lay_flat_version/3_width_2_height_6_mm_depth/stationery_clip_binder_38_mm_width_metal_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_holder_stationery_clip_binder_lay_flat_version_03_02_06_ex_stationery_clip_binder_38_mm_width_metal
   manufacturer: ''
   name: Oobb Part Oomlout Oobb Holder Stationery Clip Binder Lay Flat Version 3 Width
-    2 Height 6 mm Depth Stationery Clip Binder 100 mm Width Metal Extra
+    2 Height 6 mm Depth Stationery Clip Binder 38 mm Width Metal Extra
   name_short: Oomlout Oobb Holder Stationery Clip
   part_number: ''
   short_name: ''
