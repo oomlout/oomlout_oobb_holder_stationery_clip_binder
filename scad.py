@@ -493,7 +493,7 @@ def get_lay_flat_version_38_mm(thing, **kwargs):
 
         #small_cube through
         p3 = copy.deepcopy(kwargs)
-        p3["type"] = "negative"
+        p3["type"] = "negative_negative"
         p3["shape"] = f"oobb_cube"
         w = 15 + clear
         h = 10 + clear

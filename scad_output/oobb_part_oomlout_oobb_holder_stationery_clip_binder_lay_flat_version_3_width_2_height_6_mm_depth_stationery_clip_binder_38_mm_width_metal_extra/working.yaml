@@ -250,7 +250,7 @@ thing:
         - 15.5
         - 10.5
         - 6
-        type: negative
+        type: negative_negative
         width: 3
   - - depth: 2
       extra: stationery_clip_binder_38_mm_width_metal
@@ -951,7 +951,7 @@ thing:
     - 10.5
     - 6
     thickness: 6
-    type: negative
+    type: negative_negative
     width: 3
   - depth: 2
     extra: stationery_clip_binder_38_mm_width_metal
@@ -1078,7 +1078,7 @@ thing:
   - oobb_holes_shape_p_type_6_depth_0_0_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_both_holes_'single'_holes_1_1_3_1_2_2_locations
   - oobb_holes_shape_p_type_m3_radius_name_6_depth_0_0_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_both_holes_'single'_holes_1_1.5_3_1.5_1.5_2_2.5_2_locations
   - oobb_cube_shape_negative_type_0_-17.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_20.5_20.5_2_size
-  - oobb_cube_shape_negative_type_0_-17_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_15.5_10.5_6_size
+  - oobb_cube_shape_negative_negative_type_0_-17_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_15.5_10.5_6_size
   - oobb_cylinder_shape_negative_type_2_depth_0_-7.5_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_10.25_radius
   - oobb_cube_shape_negative_negative_type_-7_-15_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_5.5_15.5_6_size
   - oobb_cylinder_shape_positive_positive_type_6_depth_0_-7.5_0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_6_thickness_stationery_clip_binder_38_mm_width_metal_extra_7.0_radius
