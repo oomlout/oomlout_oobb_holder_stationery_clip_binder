@@ -491,6 +491,23 @@ def get_lay_flat_version_38_mm(thing, **kwargs):
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
+        #small_cube through
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_cube"
+        w = 15 + clear
+        h = 10 + clear
+        d = depth
+        size = [w,h,d]
+        p3["size"] = size
+        p3["m"] = "#"
+        pos1 = copy.deepcopy(position_clip)
+        pos1[0] += 0
+        pos1[1] += -17
+        pos1[2] += -depth/2
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
         #small cylinder
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "negative"
