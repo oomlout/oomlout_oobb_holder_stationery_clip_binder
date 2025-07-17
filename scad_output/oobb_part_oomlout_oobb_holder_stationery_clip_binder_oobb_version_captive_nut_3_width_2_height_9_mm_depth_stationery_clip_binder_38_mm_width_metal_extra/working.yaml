@@ -1,0 +1,2765 @@
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_oobb_version_captive_nut_3_width_2_height_9_mm_depth_stationery_clip_binder_38_mm_width_metal_extra
+kwargs:
+  extra: stationery_clip_binder_38_mm_width_metal
+  height: 2
+  modes:
+  - 3dpr
+  overwrite: true
+  thickness: 9
+  type: oomlout_oobb_holder_stationery_clip_binder_oobb_version_captive_nut
+  width: 3
+name: oobb_version_captive_nut
+project_name: C:\gh\oomlout_oobb_holder_stationery_clip_binder
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 9
+      extra: stationery_clip_binder_38_mm_width_metal
+      height: 2
+      pos:
+      - 0
+      - 7.5
+      - -4.5
+      shape: rounded_rectangle
+      size:
+      - 44
+      - 29
+      - 9
+      type: positive
+      width: 3
+  - - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id001
+        - -15.0
+        - 0.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id001
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id001
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id002
+        - -15.0
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id002
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id002
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id003
+        - 15.0
+        - 0.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id003
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id003
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id004
+        - 15.0
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id004
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id004
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id005
+        - -15.0
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id005
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id005
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id006
+        - 0.0
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id006
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id006
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id007
+        - 15.0
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id007
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id007
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id008
+        - -15.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id008
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id008
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id009
+        - -15.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id009
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id009
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id010
+        - -15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id010
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id010
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id011
+        - 15.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id011
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id011
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id012
+        - 15.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id012
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id012
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id013
+        - 15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id013
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id013
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id014
+        - -15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id014
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id014
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id015
+        - -7.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id015
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id015
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id016
+        - 0.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id016
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id016
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id017
+        - 7.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id017
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id017
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id018
+        - 15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id018
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id018
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id019
+        - -15.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id019
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id019
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id020
+        - -15.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id020
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id020
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id021
+        - -15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id021
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id021
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id022
+        - 15.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id022
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id022
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id023
+        - 15.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id023
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id023
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id024
+        - 15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id024
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id024
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id025
+        - -15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id025
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id025
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id026
+        - -7.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id026
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id026
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id027
+        - 0.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id027
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id027
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id028
+        - 7.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id028
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id028
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id029
+        - 15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id029
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id029
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id030
+        - -15.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id030
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id030
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id031
+        - -15.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id031
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id031
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id032
+        - -15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id032
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id032
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id033
+        - 15.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id033
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id033
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id034
+        - 15.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id034
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id034
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id035
+        - 15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id035
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id035
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id036
+        - -15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id036
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id036
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id037
+        - -7.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id037
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id037
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id038
+        - 0.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id038
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id038
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id039
+        - 7.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id039
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id039
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: ''
+        pos: &id040
+        - 15.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: ''
+        pos: *id040
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: ''
+        pos: *id040
+        r: 1.5
+        shape: cylinder
+        type: negative
+  - - depth: 2
+      extra: stationery_clip_binder_38_mm_width_metal
+      h: 2
+      height: 2
+      inclusion: laser
+      pos: &id041
+      - 0
+      - -4
+      - 2.5
+      r: 8.5
+      radius: 8.5
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 2
+      extra: stationery_clip_binder_38_mm_width_metal
+      h: 2
+      height: 2
+      inclusion: 3dpr
+      pos: *id041
+      r: 8.5
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 2
+      extra: stationery_clip_binder_38_mm_width_metal
+      h: 2
+      height: 2
+      inclusion: 'true'
+      pos: *id041
+      r: 8.5
+      radius: 8.5
+      shape: cylinder
+      type: negative
+      width: 3
+  - - objects:
+      - - clearance:
+          - bottom
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 1.7
+          height: 2
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+          width: 3
+      - - clearance: &id042
+          - bottom
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: laser
+          pos: &id043
+          - 0
+          - 0
+          - -7.5
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - clearance: *id042
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: 3dpr
+          pos: *id043
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - clearance: *id042
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: 'true'
+          pos: *id043
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - - objects:
+          - depth: 250
+            height: 250
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - depth: 250
+            height: 250
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.4619999999999997
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - depth: 250
+            height: 250
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          pos:
+          - 0
+          - 0
+          - -5.0
+          rot:
+          - 0
+          - 0
+          - 0
+          type: rotation
+          typetype: positive
+      - - clearance:
+          - bottom
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 1.9
+          height: 2
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+          width: 3
+      - - clearance: &id044
+          - bottom
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: laser
+          pos: &id045
+          - 0
+          - 0
+          - -7.5
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - clearance: *id044
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: 3dpr
+          pos: *id045
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - clearance: *id044
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: 'true'
+          pos: *id045
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+      - - objects:
+          - depth: 250
+            height: 250
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - depth: 250
+            height: 250
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.4619999999999997
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - depth: 250
+            height: 250
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          pos:
+          - 0
+          - 0
+          - -4.5
+          rot:
+          - 0
+          - 0
+          - 0
+          type: rotation
+          typetype: positive
+      - - clearance:
+          - bottom
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 1.7
+          height: 2
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+          width: 3
+      - - clearance: &id046
+          - bottom
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: laser
+          pos: &id047
+          - 0
+          - 0
+          - -7.5
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - clearance: *id046
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: 3dpr
+          pos: *id047
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - clearance: *id046
+          depth: 7.5
+          extra: stationery_clip_binder_38_mm_width_metal
+          h: 7.5
+          height: 2
+          inclusion: 'true'
+          pos: *id047
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - - objects:
+          - depth: 250
+            height: 250
+            inclusion: laser
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - depth: 250
+            height: 250
+            inclusion: 3dpr
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.4619999999999997
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - depth: 250
+            height: 250
+            inclusion: 'true'
+            pos:
+            - 0
+            - 0
+            - -250
+            r: 3.1734999999999998
+            shape: polyg
+            sides: 6
+            type: positive
+            width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - -250.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - -250.60000000000002
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          - - - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -3.25
+                      - 0
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 6.5
+                      - 0.3
+                      type: positive
+                      width: 3
+              - - - - depth: 250
+                      height: 2
+                      inclusion: 3dpr
+                      pos:
+                      - -1.75
+                      - -1.75
+                      - 0.3
+                      rotX: 0
+                      rotY: 0
+                      rotZ: 0
+                      shape: cube
+                      size:
+                      - 3.5
+                      - 3.5
+                      - 0.3
+                      type: positive
+                      width: 3
+          pos:
+          - 0
+          - 0
+          - -5.0
+          rot:
+          - 0
+          - 0
+          - 0
+          type: rotation
+          typetype: positive
+      pos:
+      - 0
+      - -4
+      - 4.5
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: stationery_clip_binder_38_mm_width_metal
+        height: 5
+        inclusion: laser
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - extra: stationery_clip_binder_38_mm_width_metal
+        height: 5
+        inclusion: 3dpr
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.914249999999999
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - extra: stationery_clip_binder_38_mm_width_metal
+        height: 5
+        inclusion: 'true'
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      pos:
+      - 15.0
+      - 15.0
+      - -4.5
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: n
+  - - objects:
+      - extra: stationery_clip_binder_38_mm_width_metal
+        height: 5
+        inclusion: laser
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - extra: stationery_clip_binder_38_mm_width_metal
+        height: 5
+        inclusion: 3dpr
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.914249999999999
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - extra: stationery_clip_binder_38_mm_width_metal
+        height: 5
+        inclusion: 'true'
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      - - - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+                  width: 3
+          - - - - extra: stationery_clip_binder_38_mm_width_metal
+                  height: 2
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+                  width: 3
+      pos:
+      - -15.0
+      - 15.0
+      - -4.5
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: n
+  components_objects:
+  - depth: 9
+    extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 7.5
+    - -4.5
+    save_type: all
+    shape: oobb_plate
+    thickness: 9
+    type: p
+    width: 3
+  - both_holes: true
+    depth: 9
+    extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    holes:
+    - top
+    - bottom
+    - right
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - 7.5
+    - -4.5
+    save_type: all
+    shape: oobb_holes
+    thickness: 9
+    type: p
+    width: 3
+  - depth: 2
+    extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    modes:
+    - 3dpr
+    overwrite: true
+    pos:
+    - 0
+    - -4
+    - 3.5
+    radius: 8.5
+    save_type: all
+    shape: oobb_cylinder
+    thickness: 9
+    type: n
+    width: 3
+  - clearance:
+    - bottom
+    depth: 7.5
+    extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    modes:
+    - 3dpr
+    nut: true
+    overhang: true
+    overwrite: true
+    pos:
+    - 0
+    - -4
+    - -3.0
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_screw_countersunk
+    thickness: 9
+    type: n
+    width: 3
+    zz: bottom
+  - extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    m: '#'
+    modes:
+    - 3dpr
+    overhang: true
+    overwrite: true
+    pos:
+    - 15.0
+    - 15.0
+    - -4.5
+    radius_name: m6
+    rot:
+    - 0
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_nut
+    thickness: 9
+    type: n
+    width: 3
+    zz: bottom
+  - extra: stationery_clip_binder_38_mm_width_metal
+    height: 2
+    m: '#'
+    modes:
+    - 3dpr
+    overhang: true
+    overwrite: true
+    pos:
+    - -15.0
+    - 15.0
+    - -4.5
+    radius_name: m6
+    rot:
+    - 0
+    - 0
+    - 0
+    save_type: all
+    shape: oobb_nut
+    thickness: 9
+    type: n
+    width: 3
+    zz: bottom
+  components_string:
+  - oobb_plate_shape_p_type_9_depth_0_7.5_-4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_9_thickness_stationery_clip_binder_38_mm_width_metal_extra
+  - oobb_holes_shape_p_type_9_depth_0_7.5_-4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_9_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_both_holes_'top'_'bottom'_'right'_holes
+  - oobb_cylinder_shape_n_type_2_depth_0_-4_3.5_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_9_thickness_stationery_clip_binder_38_mm_width_metal_extra_8.5_radius
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_7.5_depth_0_-4_-3.0_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_9_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_nut_true_overhang_'bottom'_clearance_0_0_0_rot_bottom_zz
+  - oobb_nut_shape_n_type_m6_radius_name_15.0_15.0_-4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_9_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
+  - oobb_nut_shape_n_type_m6_radius_name_-15.0_15.0_-4.5_pos_all_save_type_true_overwrite_'3dpr'_modes_3_width_2_height_9_thickness_stationery_clip_binder_38_mm_width_metal_extra_true_overhang_0_0_0_rot_bottom_zz
+  description: oomlout oobb holder stationery clip binder oobb version captive nut
+    3x2x9
+  description_extra: stationery_clip_binder_38_mm_width_metal_extra
+  description_main: 3_width_2_height_9_mm_depth
+  extra: stationery_clip_binder_38_mm_width_metal
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_holder_stationery_clip_binder_oobb_version_captive_nut_3_width_2_height_9_mm_depth_stationery_clip_binder_38_mm_width_metal_extra
+  height: 2
+  height_mm: 29
+  id: oobb_part_oomlout_oobb_holder_stationery_clip_binder_oobb_version_captive_nut_3_width_2_height_9_mm_depth_stationery_clip_binder_38_mm_width_metal_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_holder_stationery_clip_binder_oobb_version_captive_nut/3_width_2_height_9_mm_depth/stationery_clip_binder_38_mm_width_metal_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_holder_stationery_clip_binder_oobb_version_captive_nut_03_02_09_ex_stationery_clip_binder_38_mm_width_metal
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Holder Stationery Clip Binder Oobb Version Captive
+    Nut 3 Width 2 Height 9 mm Depth Stationery Clip Binder 38 mm Width Metal Extra
+  name_short: Oomlout Oobb Holder Stationery Clip
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_holder_stationery_clip_binder_oobb_version_captive_nut
+  thickness: 9
+  thickness_mm: 9
+  type: part
+  width: 3
+  width_mm: 44

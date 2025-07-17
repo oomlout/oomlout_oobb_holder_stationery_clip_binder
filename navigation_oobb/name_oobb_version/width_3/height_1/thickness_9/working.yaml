@@ -36,219 +36,219 @@ thing:
       - 9
       type: positive
       width: 3
-  - - - h: 200
+  - - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id001
         - -15.0
         - 0.0
-        - -100.0
+        - 0
         r: 3.0
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
         pos: *id001
         r: 3.25
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
         pos: *id001
         r: 3.0
         shape: cylinder
         type: negative
-    - - h: 200
+    - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id002
         - 15.0
         - 0.0
-        - -100.0
+        - 0
         r: 3.0
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
         pos: *id002
         r: 3.25
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
         pos: *id002
         r: 3.0
         shape: cylinder
         type: negative
-    - - h: 200
+    - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id003
-        - 15.0
+        - -15.0
         - 0.0
-        - -100.0
-        r: 3.0
+        - 0
+        r: 1.5
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
         pos: *id003
-        r: 3.25
+        r: 1.8
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
         pos: *id003
-        r: 3.0
+        r: 1.5
         shape: cylinder
         type: negative
-    - - h: 200
+    - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id004
-        - -15.0
+        - 15.0
         - 0.0
-        - -100.0
+        - 0
         r: 1.5
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
         pos: *id004
         r: 1.8
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
         pos: *id004
         r: 1.5
         shape: cylinder
         type: negative
-    - - h: 200
+    - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id005
-        - 15.0
+        - -15.0
         - 0.0
-        - -100.0
+        - 0
         r: 1.5
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
         pos: *id005
         r: 1.8
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
         pos: *id005
         r: 1.5
         shape: cylinder
         type: negative
-    - - h: 200
+    - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id006
-        - -15.0
+        - 15.0
         - 0.0
-        - -100.0
+        - 0
         r: 1.5
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
         pos: *id006
         r: 1.8
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
         pos: *id006
         r: 1.5
         shape: cylinder
         type: negative
-    - - h: 200
+    - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id007
-        - 15.0
+        - -15.0
         - 0.0
-        - -100.0
+        - 0
         r: 1.5
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
         pos: *id007
         r: 1.8
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
         pos: *id007
         r: 1.5
         shape: cylinder
         type: negative
-    - - h: 200
+    - - depth: 9
+        h: 9
         inclusion: laser
         m: ''
         pos: &id008
-        - -15.0
-        - 0.0
-        - -100.0
-        r: 1.5
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 3dpr
-        m: ''
-        pos: *id008
-        r: 1.8
-        shape: cylinder
-        type: negative
-      - h: 200
-        inclusion: 'true'
-        m: ''
-        pos: *id008
-        r: 1.5
-        shape: cylinder
-        type: negative
-    - - h: 200
-        inclusion: laser
-        m: ''
-        pos: &id009
         - 15.0
         - 0.0
-        - -100.0
+        - 0
         r: 1.5
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 3dpr
         m: ''
-        pos: *id009
+        pos: *id008
         r: 1.8
         shape: cylinder
         type: negative
-      - h: 200
+      - depth: 9
+        h: 9
         inclusion: 'true'
         m: ''
-        pos: *id009
+        pos: *id008
         r: 1.5
         shape: cylinder
         type: negative
@@ -257,7 +257,7 @@ thing:
       h: 2
       height: 1
       inclusion: laser
-      pos: &id010
+      pos: &id009
       - 0
       - -4
       - 2.5
@@ -271,7 +271,7 @@ thing:
       h: 2
       height: 1
       inclusion: 3dpr
-      pos: *id010
+      pos: *id009
       r: 8.5
       shape: cylinder
       type: negative
@@ -281,7 +281,7 @@ thing:
       h: 2
       height: 1
       inclusion: 'true'
-      pos: *id010
+      pos: *id009
       r: 8.5
       radius: 8.5
       shape: cylinder
@@ -304,14 +304,14 @@ thing:
           shape: cylinder
           type: positive
           width: 3
-      - - clearance: &id011
+      - - clearance: &id010
           - bottom
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: laser
-          pos: &id012
+          pos: &id011
           - 0
           - 0
           - -7.5
@@ -320,24 +320,24 @@ thing:
           shape: cylinder
           type: positive
           width: 3
-        - clearance: *id011
+        - clearance: *id010
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: 3dpr
-          pos: *id012
+          pos: *id011
           r: 1.5
           shape: cylinder
           type: positive
           width: 3
-        - clearance: *id011
+        - clearance: *id010
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: 'true'
-          pos: *id012
+          pos: *id011
           r: 1.5
           radius: 1.5
           shape: cylinder
@@ -610,14 +610,14 @@ thing:
           shape: cylinder
           type: positive
           width: 3
-      - - clearance: &id013
+      - - clearance: &id012
           - bottom
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: laser
-          pos: &id014
+          pos: &id013
           - 0
           - 0
           - -7.5
@@ -626,24 +626,24 @@ thing:
           shape: cylinder
           type: positive
           width: 3
-        - clearance: *id013
+        - clearance: *id012
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: 3dpr
-          pos: *id014
+          pos: *id013
           r: 1.8
           shape: cylinder
           type: positive
           width: 3
-        - clearance: *id013
+        - clearance: *id012
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: 'true'
-          pos: *id014
+          pos: *id013
           r: 1.8
           radius: 1.8
           shape: cylinder
@@ -916,14 +916,14 @@ thing:
           shape: cylinder
           type: positive
           width: 3
-      - - clearance: &id015
+      - - clearance: &id014
           - bottom
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: laser
-          pos: &id016
+          pos: &id015
           - 0
           - 0
           - -7.5
@@ -932,24 +932,24 @@ thing:
           shape: cylinder
           type: positive
           width: 3
-        - clearance: *id015
+        - clearance: *id014
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: 3dpr
-          pos: *id016
+          pos: *id015
           r: 1.5
           shape: cylinder
           type: positive
           width: 3
-        - clearance: *id015
+        - clearance: *id014
           depth: 7.5
           extra: stationery_clip_binder_38_mm_width_metal
           h: 7.5
           height: 1
           inclusion: 'true'
-          pos: *id016
+          pos: *id015
           r: 1.5
           radius: 1.5
           shape: cylinder

@@ -63,16 +63,24 @@ def make_scad(**kwargs):
         sizes.append([3,3,9])
 
 
-        for size in sizes:
-            part = copy.deepcopy(part_default)
-            p3 = copy.deepcopy(kwargs)
-            p3["width"] = size[0]
-            p3["height"] = size[1]
-            p3["thickness"] = size[2]
-            p3["extra"] = "stationery_clip_binder_38_mm_width_metal"
-            part["kwargs"] = p3
-            part["name"] = "oobb_version"
-            parts.append(part)
+        names = []
+        names.append("oobb_version")
+        names.append("oobb_version_captive_nut")
+
+        for name in names:
+            for size in sizes:
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = size[0]
+                p3["height"] = size[1]
+                p3["thickness"] = size[2]
+                p3["extra"] = "stationery_clip_binder_38_mm_width_metal"
+                part["kwargs"] = p3
+                part["name"] = name
+                if "captive_nut" in name and size[1] == 1:
+                    pass #skip small captive nut one
+                else:
+                    parts.append(part)
 
         sizes = []
         sizes.append([3,1,6])
@@ -295,6 +303,13 @@ def get_oobb_version(thing, **kwargs):
     elif "stationery_clip_binder_100_mm_width_metal" in extra:
         return get_oobb_version_100_mm(thing, **kwargs)
 
+def get_oobb_version_captive_nut(thing, **kwargs):
+    extra = kwargs.get("extra", "")
+    if "stationery_clip_binder_38_mm_width_metal" in extra:
+        return get_oobb_version_38_mm_captive_nut(thing, **kwargs)
+    elif "stationery_clip_binder_100_mm_width_metal" in extra:
+        return get_oobb_version_100_mm(thing, **kwargs)
+
 def get_oobb_version_38_mm(thing, **kwargs):
 
     string_level = 3
@@ -374,6 +389,138 @@ def get_oobb_version_38_mm(thing, **kwargs):
     rot1 = copy.deepcopy(rot)
     #rot1[0] += 180
     p3["rot"] = rot1
+    p3["zz"] = "bottom"
+    oobb_base.append_full(thing,**p3)
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        pos1[2] += string_level + 3
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += string_level
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+def get_oobb_version_38_mm_captive_nut(thing, **kwargs):
+
+    string_level = 3
+
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    #pos = copy.deepcopy(pos)
+    #pos[2] += -20
+
+    #add plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_plate"    
+    p3["depth"] = depth
+    #p3["holes"] = True         uncomment to include default holes
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    pos1[2] += -depth/2
+    if height !=1:
+        pos1[1] += (height-1) * 7.5
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+    
+    #add holes seperate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_holes"
+    p3["both_holes"] = True  
+    p3["depth"] = depth
+    p3["holes"] = ["top","bottom"]
+    if height > 1:
+        p3["holes"] = ["top","bottom","right"]
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos1)         
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+
+    
+
+    #cutout for clip
+    position_clip = copy.deepcopy(pos)
+    position_clip[1] += -4
+    position_clip[2] += depth/2
+    
+
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_cylinder"
+    radius_clip = 17/2
+    depth_clip = 2
+    p3["radius"] = radius_clip
+    p3["depth"] = depth_clip
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(position_clip)
+    pos1[2] += -depth_clip/2
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+
+    #add countersunk screw
+    clearance_screw = 1.5
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_screw_countersunk"
+    p3["radius_name"] = "m3"
+    p3["depth"] = depth - clearance_screw
+    p3["nut"] = True
+    p3["overhang"] = True
+    p3["clearance"] = ["bottom"]
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(position_clip)
+    pos1[2] += -depth + clearance_screw
+    p3["pos"] = pos1
+    rot1 = copy.deepcopy(rot)
+    #rot1[0] += 180
+    p3["rot"] = rot1
+    p3["zz"] = "bottom"
+    oobb_base.append_full(thing,**p3)
+
+    #add captive nut
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_nut"
+    p3["radius_name"] = "m6"
+    p3["overhang"] = True
+    p3["m"] = "#"
+    poss = []
+    pos1 = copy.deepcopy(pos)
+    pos1[1] += (height)/2 * 15
+    pos1[2] += -depth/2
+    pos11 = copy.deepcopy(pos1)
+    pos11[0] += (width-1)/2 * 15
+    poss.append(pos11)
+    pos12 = copy.deepcopy(pos1)
+    pos12[0] += -(width-1)/2 * 15
+    poss.append(pos12)
+    p3["pos"] = poss
+    rot1 = copy.deepcopy(rot)
+    #rot1[0] += 180
+    p3["rot"] = rot1  
     p3["zz"] = "bottom"
     oobb_base.append_full(thing,**p3)
 
